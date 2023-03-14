@@ -5,6 +5,7 @@ from django.http.response import JsonResponse
 from SdtAdminApp.models import StdAdmins
 from SdtAdminApp.serializers import StdAdminSerializer
 
+
 # Create your views here.
 @csrf_exempt
 def student_administration_Api(request,id=0):
