@@ -1,7 +1,7 @@
 from django.db import models
 
-# Create your models here.
 
+# Create your models here.
 class StdAdmins(models.Model):
 
     std_id = models.AutoField(primary_key=True) 
